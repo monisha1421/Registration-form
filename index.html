@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, rgba(3, 85, 24, 0.877), hwb(93 2% 3%));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;    
+        }
+        .container {
+            display: flex;
+            background-color: white;
+            border-radius: 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 800px;
+            height: 500px;
+        }
+
+        .left-section {
+            background: rgb(9 57 21 / 88%);
+            color: white;
+            padding: 50px;
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-top-right-radius: 130px;
+            border-bottom-right-radius: 130px;
+           }
+
+        .left-section h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .left-section p {
+            font-size: 16px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .sign-in-btn {
+            background-color: transparent;
+            border: 1px solid white;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 1px;
+            cursor: pointer;
+            width:50%
+        }
+
+        .right-section {
+            padding: 10px;
+            width: 50%;
+           
+
+        }
+
+        .right-section h2 {
+            font-size: 24px;
+            margin-top: 32px;
+            text-align: center;
+        }
+        .right-section p{
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .social-media-btns {
+            display: flex;
+            justify-content: space-evenly;
+            margin-bottom: 20px;
+            border-radius: 1px;
+            
+        }
+
+        .social-media-btn {
+            background-color: #f0f0f0;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .or-divider {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 30px;
+            
+            
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+           
+        }
+
+        .form-group input {
+            width: 85%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 1px;
+           background-color: hwb(0deg 84.44% 12.45% / 92.5%);
+           position: relative;
+           right: -16px;
+}
+           
+        .sign-up-btn {
+            background-color: hsl(76, 83%, 45%);
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 1px;
+            cursor: pointer;
+            width: 33%;
+            position: relative;
+            right: -123px;
+        }
+       </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h2>Welcome Back!</h2>
+            <p>Provide your personal details to use all features</p>
+            <button class="sign-in-btn">SIGN IN</button>
+        </div>
+        <div class="right-section">
+            <h2>Register With</h2>
+            <div class="social-media-btns">
+                <button class="social-media-btn"><img src="googleblue.png"width="20" height="20"></button>                                                                                
+                <button class="social-media-btn"><img src="https://img.icons8.com/color/48/000000/facebook-new.png" width="20" height="20"></button>
+                <button class="social-media-btn"><img src="githubblue.png"width="20" height="20" ></button>                                                                        
+                <button class="social-media-btn"><img src="https://img.icons8.com/color/48/000000/linkedin.png" width="20" height="20"></button>
+            </div>
+            <div class="or-divider">OR</div>
+            <p>Fill out The Following into For Registeration</p>
+            <div class="form-group">
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Password">
+            </div>
+        
+             <button class="sign-up-btn">SIGN UP</button>
+           
+           
+        </div>
+    </div>
+</body>
+</html>
